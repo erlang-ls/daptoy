@@ -1,9 +1,9 @@
 daptoy
 =====
 
-An OTP application
+A _Debug Adapter Protocol_ - _DAP_ in short - Toy Project.
 
-Build
------
+The purpose of this project is to showcase support for the _DAP_
+protocol in Erlang LS.
 
-    $ rebar3 compile
+Created during the [Spawnfest 2020](https://spawnfest.github.io/).
