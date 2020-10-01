@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "erlang",
+            "request": "launch",
+            "name": "Run baby run",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": true,
+            "module": "daptoy_fact",
+            "function": "fact",
+            "args": "[5]"
+        },
+        {
+            "type": "erlang",
+            "request": "launch",
+            "name": "vscode in terminal",
+            "cwd": "${workspaceFolder}",
+            "runinterminal": ["rebar3", "shell", "--name", "dapnode@alanzimm-mbp"],
+            "projectnode": "dapnode@alanzimm-mbp",
+            "stopOnEntry": true,
+            "module": "daptoy_fact",
+            "function": "fact",
+            "args": "[5]"
+
+        }
+    ]
+}
